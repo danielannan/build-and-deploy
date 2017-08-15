@@ -17,7 +17,7 @@ dependencies:
  override:
    - npm install
    - bower install
-  post:
+ post:
     - grunt build
 
 test:
