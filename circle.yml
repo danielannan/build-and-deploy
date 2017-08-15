@@ -23,3 +23,9 @@ dependencies:
 test:
   override:
     - grunt test
+
+deployment:
+prod:
+  branch: master
+  heroku:
+   appname: {daniel-build-and-deploy}
