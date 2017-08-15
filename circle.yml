@@ -12,3 +12,7 @@
 #    branch: master
 #    heroku:
 #      appname: nerdschool-deploy
+
+dependencies:
+ override:
+   - npm install
